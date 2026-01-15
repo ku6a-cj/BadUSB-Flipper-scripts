@@ -1,8 +1,5 @@
 # BadUSB Flipper Scripts Collection
 
-**🚀 Curated collection of BadUSB payloads for Flipper Zero**  
-High-quality, tested scripts for automation, gaming, and system interaction. From AFK prevention to advanced keyboard macros.
-
 ## 🎮 Featured Scripts
 
 | Script | Description | Target | Status |
