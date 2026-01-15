@@ -1,0 +1,247 @@
+REM Rick Roll Fixed - Anti-Garble v2 (Notepad, Windows 11 Tested)
+REM Split EVERY lyric line into TWO STRING halves + DELAY 200ms between
+DEFAULT_DELAY 120
+STRING_DELAY 80
+REM Rick Roll browser first
+GUI r
+DELAY 800
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER
+DELAY 1500
+REM Open Notepad
+GUI r
+DELAY 800
+STRING notepad
+ENTER
+DELAY 1000
+HOLD CTRL
+DELAY 50
+STRING N
+RELEASE CTRL
+DELAY 500
+
+STRING We're no strangers
+DELAY 200
+STRING to love
+ENTER
+DELAY 500
+
+STRING You know the rules
+DELAY 200
+STRING and so do I
+ENTER
+DELAY 500
+
+STRING A full commitment's
+DELAY 200
+STRING what I'm thinking of
+ENTER
+DELAY 500
+
+STRING You wouldn't get this
+DELAY 200
+STRING from any other guy
+ENTER
+DELAY 500
+
+STRING I just wanna tell you
+DELAY 200
+STRING how I'm feeling
+ENTER
+DELAY 500
+
+STRING Gotta make you
+DELAY 200
+STRING understand
+ENTER
+DELAY 500
+
+STRING Never gonna give you
+DELAY 200
+STRING up
+ENTER
+DELAY 500
+
+STRING Never gonna let you
+DELAY 200
+STRING down
+ENTER
+DELAY 500
+
+STRING Never gonna run around
+DELAY 200
+STRING and desert you
+ENTER
+DELAY 500
+
+STRING Never gonna make you
+DELAY 200
+STRING cry
+ENTER
+DELAY 500
+
+STRING Never gonna say
+DELAY 200
+STRING goodbye
+ENTER
+DELAY 500
+
+STRING Never gonna tell a lie
+DELAY 200
+STRING and hurt you
+ENTER
+DELAY 500
+
+STRING We've known each other
+DELAY 200
+STRING for so long
+ENTER
+DELAY 500
+
+STRING Your heart's been aching
+DELAY 200
+STRING but you're too shy to say it
+ENTER
+DELAY 500
+
+STRING Inside we both know
+DELAY 200
+STRING what's been going on
+ENTER
+DELAY 500
+
+STRING We know the game and
+DELAY 200
+STRING we're gonna play it
+ENTER
+DELAY 500
+
+STRING And if you ask me
+DELAY 200
+STRING how I'm feeling
+ENTER
+DELAY 500
+
+STRING Don't tell me you're
+DELAY 200
+STRING too blind to see
+ENTER
+DELAY 500
+
+STRING Never gonna give you
+DELAY 200
+STRING up
+ENTER
+DELAY 500
+
+STRING Never gonna let you
+DELAY 200
+STRING down
+ENTER
+DELAY 500
+
+STRING Never gonna run around
+DELAY 200
+STRING and desert you
+ENTER
+DELAY 500
+
+STRING Never gonna make you
+DELAY 200
+STRING cry
+ENTER
+DELAY 500
+
+STRING Never gonna say
+DELAY 200
+STRING goodbye
+ENTER
+DELAY 500
+
+STRING Never gonna tell a lie
+DELAY 200
+STRING and hurt you
+ENTER
+DELAY 500
+
+STRING Never gonna give you
+DELAY 200
+STRING up
+ENTER
+DELAY 500
+
+STRING Never gonna let you
+DELAY 200
+STRING down
+ENTER
+DELAY 500
+
+STRING Never gonna run around
+DELAY 200
+STRING and desert you
+ENTER
+DELAY 500
+
+STRING Never gonna make you
+DELAY 200
+STRING cry
+ENTER
+DELAY 500
+
+STRING Never gonna say
+DELAY 200
+STRING goodbye
+ENTER
+DELAY 500
+
+STRING Never gonna tell a lie
+DELAY 200
+STRING and hurt you
+ENTER
+DELAY 500
+
+STRING (Ooh, give you
+DELAY 200
+STRING up)
+ENTER
+DELAY 500
+
+STRING (Ooh, give you
+DELAY 200
+STRING up)
+ENTER
+DELAY 500
+
+STRING Never gonna give,
+DELAY 200
+STRING never gonna give
+ENTER
+DELAY 500
+
+STRING (Give you
+DELAY 200
+STRING up)
+ENTER
+DELAY 500
+
+STRING Never gonna give,
+DELAY 200
+STRING never gonna give
+ENTER
+DELAY 500
+
+STRING (Give you
+DELAY 200
+STRING up)
+ENTER
+DELAY 500
+
+REM PowerShell popup finale
+DELAY 1000
+GUI r
+DELAY 800
+STRING powershell
+ENTER
+DELAY 500
+STRING $ws = New-Object -ComObject WScript.Shell; $ws.Popup('You have been Rick Rolled!', 0, 'RickRoll', 0x10)
+ENTER
