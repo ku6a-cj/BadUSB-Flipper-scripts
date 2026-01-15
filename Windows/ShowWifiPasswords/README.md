@@ -42,7 +42,7 @@ OfficeWiFi Company2023
 CoffeeShop FreeWiFi456
 
 
-Security Notes ⚠️
+### Security Notes ⚠️
 For educational/pentesting use only
 
 Requires physical USB access
@@ -56,4 +56,5 @@ OS	Status
 Windows 11	✅ Working
 Linux/macOS	❌ Windows-only
 License
+
 MIT License - See LICENSE for details.
